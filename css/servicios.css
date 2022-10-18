@@ -1,0 +1,39 @@
+#servicios{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#servicios .container{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#servicios a{
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+#servicios img{
+
+    width: 180px;
+    max-width: 290px;
+    height: 160px;
+    border-radius: 110%;
+    border: 6px solid white;
+}
+
+#servicios h4{
+    text-align: center;
+    font-size: 20px;
+    color:white;
+}
+
+#servicios img :before{
+    background-image: rgba(255,255,255,0.7);
+}

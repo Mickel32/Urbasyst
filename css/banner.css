@@ -1,0 +1,108 @@
+#banner{
+    margin-top: 30px;
+    position: relative;
+    background: rgba(51,51,51,0.3);
+}
+
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+
+#banner .container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #333;
+}
+
+#banner h2{
+    
+    font-size: 5px;
+    text-align: center;
+    background-color: grey;
+    color: white; El texto de la página será negro */
+}
+
+@media (min-width: 600px){
+    #banner h2{
+        font-size: 21px;
+        position: absolute;
+        top: 95%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 730px){
+    #banner h2{
+        font-size: 25px;
+        position: absolute;
+        top: 95%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 900px){
+    #banner h2{
+        font-size: 40px;
+        text-al
+        text-align: center;ign: center;
+    }
+    #banner .container{
+        position: absolute;
+        top: 50%;
+        color: white;
+        text-align: center;
+    }
+}
+
+@media (min-width:768px){
+    #banner{
+        height: auto;
+        overflow: hidden;
+        width: auto;
+    }
+    #banner img{
+        height: auto;
+        margin-top: -100px;
+    }
+}
+
+@media (min-width:800px){
+    #banner{
+        height: 300px;
+        overflow: hidden;
+        width: auto;
+    }
+    #banner img{
+        height: auto;
+        margin-top: -100px;
+    }
+}
+
+@media (min-width:1024px){
+    #banner img{
+        margin-top: -200px;
+    }
+    #banner .container{
+        position: absolute;
+        top: 60%;
+        width: 1024px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:1200px){
+    #banner img{
+        margin-top: -200px;
+    }
+    #banner .container{
+        position: absolute;
+        top: 75%;
+        width: 640px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

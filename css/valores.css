@@ -1,0 +1,37 @@
+#valores{
+    background: rgba(51,51,51,0.3);
+}
+
+#valores .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+#valores article{
+    margin: 40px;
+    width: 100%;
+    max-width: 280px;
+}
+
+#mision {
+    
+    width: 100%;
+    height: 100%;
+}
+
+/*#mision h3{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 28px;
+    position: absolute;
+    top: 60%;
+    float: left;
+}*/
+
+/*#mision p{
+    position: relative;
+    left: 10%;
+    flex-wrap: wrap;
+}*/
+

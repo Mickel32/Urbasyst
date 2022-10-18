@@ -1,0 +1,11 @@
+
+<head>
+<p> hola mudo </p>
+
+<head/>
+
+<script type "text/javascript">
+
+alert("hola mundo esto es prueba")
+
+</script>
